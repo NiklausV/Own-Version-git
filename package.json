@@ -1,0 +1,34 @@
+{
+  "name": "own-version-.git",
+  "version": "1.0.0",
+  "description": "Full-stack Git clone with visual diff viewer",
+  "private": true,
+  "workspaces": [
+    "cli-tool",
+    "api",
+    "diff-viewer"
+  ],
+  "scripts": {
+    "install-all": "npm install && cd cli-tool && npm install && cd ../api && npm install && cd ../diff-viewer && npm install",
+    "cli": "node cli-tool/src/index.js",
+    "api": "cd api && npm run dev",
+    "ui": "cd diff-viewer && npm run dev",
+    "dev": "concurrently \"npm run api\" \"npm run ui\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "git",
+    "version-control",
+    "diff-viewer",
+    "full-stack"
+  ],
+  "author": "Mustafa Hadi",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^0.552.0",
+    "nvm": "^0.0.4"
+  }
+}

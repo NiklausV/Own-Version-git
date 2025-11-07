@@ -1,0 +1,22 @@
+{
+  "name": "cli-tool",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Custom Git implementation",
+  "main": "src/index.js",
+  "bin": {
+    "mygit": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
