@@ -6,7 +6,7 @@ A full-stack project that implements core Git functionality from scratch with a 
 
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)
 
-[Layered Architecture Diagram]([https://example.com](https://docs.google.com/document/d/1QCM6OeMi4ml-Tp-e5Qkd9h3nuNSNO5dHq5l_GPZUHIc/edit?usp=sharing))
+[Layered Architecture Diagram](https://docs.google.com/document/d/1QCM6OeMi4ml-Tp-e5Qkd9h3nuNSNO5dHq5l_GPZUHIc/edit?usp=sharing)
 
 
 ## Features
