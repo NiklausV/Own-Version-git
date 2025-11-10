@@ -18,8 +18,8 @@ A full-stack project that implements core Git functionality from scratch with a 
 - `log` - View commit history
 - `status` - Check repository state
 - `diff` - Compare file changes
-- `checkout` - Switch between commits (coming soon)
-- `branch` - Branch management (coming soon)
+- `checkout` - Switch between commits 
+- `branch` - Branch management 
 
 ### Visual Diff Viewer
 - Interactive commit history timeline
